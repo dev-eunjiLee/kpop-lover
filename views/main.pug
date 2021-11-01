@@ -1,0 +1,21 @@
+html
+    haed
+        meta(charset='utf-8')
+        link(rel="stylesheet", href="https://unpkg.com/mvp.css")
+
+    body
+        h1#title KPOP 과몰입러를 위한 1초 듣고 노래 맞추기
+        div#rule
+            h2 게임 규칙
+            ul#ruleList
+                li 오프라인 모드 => 친구들과 가볍게 즐기세요
+                li 온라인 - 1인 랭킹 모드 => 틀릴 때 까지 계속해서 정답을 입력하세요. 점수가 제일 높은 10명의 점수는 랭킹에서 확인 가능합니다.
+                li 온라인 - 게임방모드 => 원하는 방을 선택해서 많은 사람들과 노래 맞추기 대결을 해보세요.
+
+
+            button#offLineBtn 오프라인
+            button#onLineBtn 온라인
+
+    script(src='/app.js')
+    script(src="/socket.io/socket.io.js")
+
