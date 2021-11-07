@@ -35,7 +35,7 @@ export class AppGateway
   private logger: Logger = new Logger('AppGateway');
 
   // * 처음 셋팅했을 때,
-  afterInit(server: any): any {
+  afterInit(server: Server): any {
     this.logger.log(`init: ${server}`);
   }
 

@@ -1,7 +1,7 @@
+const socket = io();
+
 const offLineBtn = document.getElementById('offLineBtn');
 const onLineBtn = document.getElementById('onLineBtn');
-
-const socket = io();
 
 offLineBtn.addEventListener('click', (event) => {
   event.preventDefault();
